@@ -17,5 +17,8 @@ The idea is to place queens one by one in different columns, starting from the l
 ##### Run example:
 ![](https://github.com/neginkheirmand/N_Queen_Problem/blob/master/runExample.png?raw=true)
 
-[reference](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)
+[reference1](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)
+
+[reference2](https://en.wikipedia.org/wiki/Eight_queens_puzzle)
+
 
