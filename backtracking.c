@@ -101,5 +101,26 @@ int main(){
     for(int i=0; i<n; i++){
         printf("%d " , place_of_queens[i]);
     }
+    printf("\n");
+    int arr[n][n];
+    
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            arr[j][i]=0;
+        }
+    }
+    for(int i=0; i<n; i++){
+        arr[place_of_queens[i]][i]=1;
+    }
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            if(arr[i][j]==0){
+                printf("%d ",0);
+            }else{
+                printf("* ");
+            }
+        }
+        printf("\n");
+    }
     return 0;
 }
